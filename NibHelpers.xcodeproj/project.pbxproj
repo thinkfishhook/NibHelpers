@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A31426B234D33D700541901 /* NibHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A31426A234D33D700541901 /* NibHelpers.swift */; };
+		2A31426B234D33D700541901 /* NibEmbedable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A31426A234D33D700541901 /* NibEmbedable.swift */; };
+		2A314272234D342400541901 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A314271234D342400541901 /* ReusableView.swift */; };
+		2A314274234D345A00541901 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A314273234D345A00541901 /* NibLoadable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,9 @@
 
 /* Begin PBXFileReference section */
 		2A314267234D33D700541901 /* libNibHelpers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNibHelpers.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A31426A234D33D700541901 /* NibHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibHelpers.swift; sourceTree = "<group>"; };
+		2A31426A234D33D700541901 /* NibEmbedable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibEmbedable.swift; sourceTree = "<group>"; };
+		2A314271234D342400541901 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		2A314273234D345A00541901 /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 		2A314269234D33D700541901 /* NibHelpers */ = {
 			isa = PBXGroup;
 			children = (
-				2A31426A234D33D700541901 /* NibHelpers.swift */,
+				2A31426A234D33D700541901 /* NibEmbedable.swift */,
+				2A314273234D345A00541901 /* NibLoadable.swift */,
+				2A314271234D342400541901 /* ReusableView.swift */,
 			);
 			path = NibHelpers;
 			sourceTree = "<group>";
@@ -119,7 +125,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A31426B234D33D700541901 /* NibHelpers.swift in Sources */,
+				2A314274234D345A00541901 /* NibLoadable.swift in Sources */,
+				2A31426B234D33D700541901 /* NibEmbedable.swift in Sources */,
+				2A314272234D342400541901 /* ReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
